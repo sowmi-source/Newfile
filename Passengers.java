@@ -17,7 +17,7 @@ public class Passengers{
  		String password = "12345";
 
 		String query = "select * from customer";
-
+                // sql commands
  
                Connection con = DriverManager.getConnection(url,username,password);
                Statement st = con.createStatement();
