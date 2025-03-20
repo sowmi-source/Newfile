@@ -18,7 +18,7 @@ public class Passengers{
 
 		String query = "select * from customer";
                 // sql commands
- 
+                //MYSQL COMMANDS
                Connection con = DriverManager.getConnection(url,username,password);
                Statement st = con.createStatement();
                ResultSet rs = st.executeQuery(query);
