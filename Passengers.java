@@ -70,9 +70,9 @@ public class Passengers{
                    pst.setString(2,name);
 		   pst.setString(3,place);
 
-                   int rows = pst.executeUpdate(query); 
+                   int row = pst.executeUpdate(query); 
   
-                   System.out.println("number of rows inserted: "+ rows);
+                   System.out.println("number of rows inserted: "+ row);
 		   con.close();
                    
         }
